@@ -1,0 +1,128 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-header{
+    width: 100%;
+}
+
+.main-menu {
+    display: flex;
+
+    list-style-type: none;
+
+    padding: 0;
+
+    column-gap: 2rem;
+
+}
+
+.main-menu a {
+
+    text-decoration: none;
+    color: #3d3dd1;
+
+}
+
+.main-menu li {
+    border-radius: 20px;
+    padding:  0.25rem 1rem;
+    border: 1px solid #3d3dd1;
+}
+
+.main-menu li:hover a{
+    color: #e41dda;
+}
+
+.main-menu li:hover {
+    background-color: rgb(99, 233, 72);
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-right: 2rem;
+    background-color: rgb(241, 184, 220);
+}
+.logo img {
+    width: 120px;
+}
+
+#hero {
+
+    /* Layout classico per immagini sfondo */
+    background-image: url(imgs/foglie.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../imgs/donut_rain.jpg);
+
+    color: rgb(207, 21, 21);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 4.5rem;
+}
+
+.hero-text p {
+    font-size: 3rem;
+}
+
+#blocchi{            
+    background-color: rgb(184, 235, 235);
+}
+
+.blocco-immagine img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blocco-immagine {
+    width: 33.33%;
+}
+
+.blocco-testo {
+    width: 66.66%;
+
+    padding: 1rem;
+}
+
+.wrapper:nth-of-type(even) .blocco-immagine{
+    order: 1;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+img {
+    display: block;
+}

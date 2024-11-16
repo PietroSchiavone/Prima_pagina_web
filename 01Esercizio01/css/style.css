@@ -1,0 +1,83 @@
+/* il selettore BODY: agisce sul tag BODY che include tutta la pagina */
+body{
+    background-color: blanchedalmond;
+    color: rgb(39, 4, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    /* arial e helvetica sono famiglie di font mentre sans-serif è un tipo e quindi comprende più elementi */
+    margin: 0px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 174, 69);
+    font-style: italic;
+
+}
+
+h1{
+    font-size: 48px; 
+    /* le unità di misura vanno sempre attaccate al numero */
+    font-weight: bold;
+    /* per definire i gradi di spessore posso usare normal, bold, bolder, oppure o numeri: 400 normal, 700 bold, 900 bolder */
+    border-bottom: 2px solid #cecece;
+    /* bordo: spessore, tipo e colore */
+}
+
+/* si possono inserire più selettori per creare regole comuni */
+h2, h3{
+    font-family:cursive;
+}
+
+h2{    
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+h3{
+    border-left: 8px solid rgb(255, 174, 69)    ;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+}
+
+blockquote {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+blockquote cite{
+    display: block;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 200px;
+}
+
+.intro{
+    font-size: 20px;
+}
+
+/* si può usare un idi allo stesso modo della classe
+#budapest{
+    color: blue;
+} */
+
+/* selezione elementi dentro altri elementi */
+
+.indice a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+    background: #ffffff;
+    padding: 20px;
+}

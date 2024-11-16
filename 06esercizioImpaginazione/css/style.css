@@ -1,0 +1,205 @@
+body {
+    font-family: "Poppins", sans-serif;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+#firstPart {
+    width: 60%;
+    margin: auto auto;
+}
+
+.main-header{
+    width: 100%;
+}
+
+.main-menu {
+    display: flex;
+
+    list-style-type: none;
+
+    padding: 0;
+
+    column-gap: 2rem;
+
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.main-menu li {
+    padding:  0.25rem 1rem;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-right: 2rem;
+}
+.logo img {
+    width: 120px;
+}
+
+#hero {
+
+    /* Layout classico per immagini sfondo */
+    height: 60vh;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    background-image: url(../imgs/hero.jpg);
+
+}
+
+#text {
+
+    background-color: rgb(243, 243, 243);
+    margin: 3rem auto;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-left: solid .25rem rgb(226, 203, 0);
+
+}
+
+#text p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.blocco-immagine img {
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin: 0;
+}
+
+.blocco-immagine {
+    width: 33.33%;
+}
+
+.blocco-testo {
+    width: 66.66%;
+
+    padding: 1rem;
+}
+
+/* .blocco-testo svg {
+    margin: 0;
+    height: 16px;
+} */
+
+.wrapper:nth-of-type(even) .blocco-immagine{
+    order: 1;
+}
+
+.blocco-testo a{
+    color: rgb(43, 189, 226);
+}
+
+img {
+    display: block;
+}
+
+#gallery {
+    background-color: rgb(204, 225, 248);
+}
+
+#gallery .text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#gallery .text h1 {
+    font-weight: 200;
+}
+
+.gallery-box {
+
+    width: 80%;
+    margin: auto auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+
+}
+
+.gallery-item {
+    width: 25%;
+    padding: 0.25rem;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    display: block;
+}
+
+#footer {
+    background-color: rgb(30, 57, 87);
+}
+
+.footer-wrapper {
+
+    padding: 1rem 0;
+    width: 80%;
+    margin: auto auto;
+
+    
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contacts p {
+    margin: 0.1rem;
+    font-size: 0.75rem;
+}
+
+#footer .loghi {
+    display: flex;
+    gap: 1rem;
+}
+
+#footer .loghi-items svg {
+    width: 2rem;
+    height: auto;
+    fill: white;
+}
+
+.privacy p {
+    margin: 0.1rem;
+    font-size: 0.75rem;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}

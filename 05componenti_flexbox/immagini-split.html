@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagini Split</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #blocchi{            
+            background-color: rgb(184, 235, 235);
+        }
+
+        .blocco-immagine img {
+            max-width: 100%;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .wrapper{
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .blocco-immagine {
+            width: 33.33%;
+        }
+
+        .blocco-testo {
+            width: 66.66%;
+
+            padding: 1rem;
+        }
+
+        .wrapper:nth-of-type(even) .blocco-immagine{
+            order: 1;
+        }
+
+        a:hover{
+            color: blueviolet;
+        }
+
+        img {
+            display: block;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <section id="blocchi">
+
+        <div class="container">
+
+            <div class="wrapper">
+
+
+                <div class="blocco-immagine">
+                    <img src="https://picsum.photos/600/400?random=1" alt="">
+                </div>
+
+                <div class="blocco-testo">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio earum iste debitis veritatis, quibusdam laborum quod. Distinctio quibusdam nemo iure inventore maxime, nostrum nam necessitatibus numquam cumque minima vitae cum delectus ab odio. Numquam qui consequatur placeat iure optio.
+                    </p>
+                    <a href="">Click me</a>
+
+                </div>
+
+            </div>
+
+            <div class="wrapper">
+                
+
+                <div class="blocco-immagine">
+                    <img src="https://picsum.photos/600/400?random=2" alt="">
+                </div>
+
+                <div class="blocco-testo">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio earum iste debitis veritatis, quibusdam laborum quod. Distinctio quibusdam nemo iure inventore maxime, nostrum nam necessitatibus numquam cumque minima vitae cum delectus ab odio. Numquam qui consequatur placeat iure optio.
+                    </p>
+                    <a href="">Click me</a>
+
+                </div>
+
+            </div>
+
+            <div class="wrapper">
+                
+
+                <div class="blocco-immagine">
+                    <img src="https://picsum.photos/600/400?random=3" alt="">
+                </div>
+
+                <div class="blocco-testo">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio earum iste debitis veritatis, quibusdam laborum quod. Distinctio quibusdam nemo iure inventore maxime, nostrum nam necessitatibus numquam cumque minima vitae cum delectus ab odio. Numquam qui consequatur placeat iure optio.
+                    </p>
+                    <a href="">Click me</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

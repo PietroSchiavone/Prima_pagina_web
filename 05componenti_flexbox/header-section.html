@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header section</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <style>
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .main-menu {
+            display: flex;
+
+            list-style-type: none;
+
+            padding: 0;
+
+            column-gap: 2rem;
+
+        }
+
+        .main-menu a {
+
+            text-decoration: none;
+            color: #3d3dd1;
+
+        }
+
+        .main-menu li {
+            border-radius: 20px;
+            padding:  0.25rem 1rem;
+            border: 1px solid #3d3dd1;
+        }
+
+        .main-menu li:hover a{
+            color: #e41dda;
+        }
+
+        .main-menu li:hover {
+            background-color: rgb(99, 233, 72);
+        }
+
+        .menu-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 3rem;
+            padding-right: 2rem;
+            background-color: rgb(241, 184, 220);
+        }
+        .logo img {
+            width: 120px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header id="main-header">
+
+        <div class="container menu-wrapper">
+            <div class="logo">
+                <img src="imgs//Donut.png" alt="donut logo">
+            </div>
+            
+            <nav class="main-nav">
+                <!-- ul>(li>a)*5 scorciatoia liste/link-->
+                <ul class="main-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="princing.html">Pricing</a></li>
+                    <li><a href="demo.html">Demo</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    
+</body>
+</html>

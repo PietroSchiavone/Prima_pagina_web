@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+
+/* creazione variabili */
+ :root { /*:root serve a creare variabili di tipo globale */
+    --main-color: #cb2525;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+img {
+    max-width: 100%;
+}
+
+#main-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo{
+    width: 3rem;
+}
+
+.main-menu {
+    display: none;
+    list-style-type: none;
+}
+
+.is-open .main-menu {
+    display: block;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.928);
+    border-bottom: 3px solid #222222;
+    /* border-left: 3px solid #222222;
+    border-right: 3px solid #222222; */
+    border-top: 1px solid #222222;
+    padding: 1rem;
+    padding-right: 2.5rem;
+    width: 100%;
+    justify-items: end;
+}
+
+.main-menu a {        
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#menu-button {
+    background-color: transparent;
+    border: none;
+}
+
+#menu-button svg {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.main-menu a:hover {
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: -2px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto auto;
+}
+
+.hero-text {
+    margin-bottom: 4rem;
+}
+
+.button {
+    background-color: var(--main-color);
+    color: white;
+    border: 3px solid var(--main-color);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 9px;
+}
+
+.button:hover {
+    background-color: white;
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 9px;
+}
+
+.hero-wrapper {
+    padding-bottom: 4rem;
+}
+
+#cards {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.card {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.card-image {
+    margin: auto auto;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.card-text {
+    font-size: 1.3rem;
+}
+
+.card-title h2 {
+    font-size: 1.7rem;
+}
+
+#end {
+    margin-bottom: 4rem;
+}
+
+.footer {
+    background-color: #222222;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.footer-wrapper p { 
+    margin: 0 0;
+}
+
+.footer-wrapper {
+    text-align: center;
+    margin: auto auto;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        width: 70%;
+    }
+
+    .logo{
+        width: 7rem;
+    }
+
+    .main-nav {
+        display: block;
+        max-width: 90%;
+        margin: 0;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    .main-menu{
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .hero-wrapper {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 40%;
+    }
+
+    .hero-block {
+        padding-left: 7rem;
+        text-align: left;
+        width: 60%;
+    }
+    
+    .hero-text {
+        font-size: 1.5rem;
+    }
+    
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .card-button a {
+        font-size: 1.5rem;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 33%;
+        padding: 1rem;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .card-title h2 {
+        font-size: 2rem;
+    }
+
+    .end-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .end-text {
+        text-align: right;
+        width: 45%;
+        font-size: 1.5rem;
+    }
+
+    .end-image {
+        width: 55%;
+        order: 1;
+    }
+
+    .end-text h2 {
+        font-size: 3rem;
+    }
+
+    .footer-wrapper a, .footer-wrapper p {
+        font-size: 1.5rem;
+    }
+
+}

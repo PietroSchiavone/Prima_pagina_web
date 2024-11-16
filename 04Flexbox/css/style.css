@@ -1,0 +1,55 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    background-color: blanchedalmond;
+    height: 80vh;
+    display: flex;
+
+    /* disporre gli elementi sul main axis: */
+
+    /* justify-content: start; è il comando di default*/
+    /* justify-content: end; sposta alla fine del contenitore */
+    /* justify-content: center; allinea le box al centro del container */
+    justify-content: space-around;
+
+    /* disporre gli elementi dul cross axis: */
+
+    /* align-items: stretch; é il comando di default, è utile perchè facilita la creazione di colonne di altezza uguale */
+    /* align-items: start; allinea gli elementi in alto */
+    /* align-items: end; allinea gli elementi in basso */
+    align-items: center;
+    
+    /* si usa flex-direction per ruotare l'origine degli assi */
+}
+
+.box {
+    background-color: blueviolet;
+    border: 1px solid black;
+    /* height: 200px; */
+    width: 20%;
+}
+
+/* PROPRIETà dei figli di un elemento flex */
+/* il comando order indica in che posizione deve essere visualizzato l'elemento */
+
+#box1 {
+    order: 1;
+}
+
+#box2 {
+    order: 4;
+}
+
+#box3 {
+    order: 2;
+}
+
+#box4 {
+    order: 3;
+}
+
