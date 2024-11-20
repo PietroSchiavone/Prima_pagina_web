@@ -1,9 +1,17 @@
+:root { /*:root serve a creare variabili di tipo globale */
+    --main-color: #4a0000;    
+}
+
 body {
     font-family: "Lato", sans-serif;
 }
 
 img {
     width: 100%;
+}
+
+.color {
+    color: var(--main-color);
 }
 
 .pacifico {
@@ -43,12 +51,21 @@ img {
     background: linear-gradient(0deg, rgba(227,208,253,1) 0%, rgba(250,230,203,1) 100%);
 }
 
-@media screen and (min-width: 768px) {
+#main-footer{
+    background-color: #7571bb;
+}
 
+@media screen and (min-width: 768px) {
+    
     .main-hero {
         background-image: url(../img/hero.jpg);
         background-repeat: no-repeat;
         background-position: center;
         height: 90vh;
+    }
+
+    .heading {
+        padding-bottom: 2rem;    
+        border-bottom: 2px dotted var(--main-color);
     }
 }

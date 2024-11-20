@@ -1,0 +1,7 @@
+Riproduci il layout in allegato.
+
+Font usati: 
+Raleway (titoli, bold)
+Open Sans o font standard di sistema (corpo del testo)
+
+NOTA: per il carousel puoi usare quello di Bootstrap. Nella cartella "slides" trovi le immagini.
