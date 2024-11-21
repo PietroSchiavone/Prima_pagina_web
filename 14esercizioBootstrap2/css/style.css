@@ -13,3 +13,12 @@ img {
 #footer-2 {
     background-color: #4a5562;
 }
+
+.check {
+    list-style-image: url('../img/check2-all.svg');
+}
+
+.check li::marker {
+    display: list-item;
+    color: lightblue;
+}
