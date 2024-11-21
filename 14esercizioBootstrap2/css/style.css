@@ -1,9 +1,53 @@
+:root { /*:root serve a creare variabili di tipo globale */
+    --main-color: #f8f9fa;    
+}
+
 img {
     width: 100%;
 }
 
+.drk::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+#main-hero h3 {
+    font-size: 3rem;
+}
+
+#info h2 {
+    font-size: 3rem;
+}
+
+#info ul {
+    list-style: none;
+}
+
+#loghi {
+    background-color: var(--main-color);
+}
+
+.grey-scale {
+    filter: grayscale(100%);
+}
+
+.grey-scale:hover {
+    filter: grayscale(0%);
+}
+
+.blue-color {
+    color: #017bfe;
+}
+
 .grid-element {
-    background-color: #f0f0f0;
+    background-color: var(--main-color);
 }
 
 #main-footer{
@@ -12,4 +56,14 @@ img {
 
 #footer-2 {
     background-color: #4a5562;
+}
+
+footer li::marker {
+    content: "> ";
+}
+
+.up-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
 }
