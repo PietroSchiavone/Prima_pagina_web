@@ -2,8 +2,16 @@
     --main-color: #f8f9fa;    
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 img {
     width: 100%;
+}
+
+.raleway {
+    font-family: 'Raleway';
 }
 
 .drk::after{
@@ -26,8 +34,25 @@ img {
     font-size: 3rem;
 }
 
-#info ul {
+.custom-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.custom-list li::before {
+    content: "done_all";
+    font-family: 'Material Icons';
+    font-size: 20px;
+    position: absolute;
+    color: #017bfe;
+    left: 0;
+    top: 0;
 }
 
 #loghi {
