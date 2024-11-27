@@ -1,0 +1,7 @@
+Riproduci la pagina carrello nello zip usando boostrap.
+
+Nota: per il tema scuro vedi qui:https://getbootstrap.com/docs/5.3/customize/color-modes/
+
+PUNTI BONUS: 
+Rendi reattivi i pulsanti per aumentare o diminuire le quantità sul carrello
+Fai uno switch per il tema chiaro / scuro (è complicato, ma trovi un aiuto sulla documentazione di BS).

@@ -1,0 +1,23 @@
+.svg-header {
+    width: 7rem;
+}
+
+.number-input {
+    width: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+    
+    .svg-header {
+        width: 9rem;
+    }
+
+    /* .riepilogo-heading {
+        margin-top: calc(48px - 30px);
+    } */
+
+    .heading {
+        height: 3rem;
+    }
+
+}
