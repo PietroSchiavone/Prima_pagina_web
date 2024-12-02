@@ -10,6 +10,10 @@
     font-size: 1rem;
 }
 
+.input-bar {
+    min-width: 2rem;
+}
+
 @media screen and (min-width: 992px) {
     
     .svg-header {
