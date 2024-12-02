@@ -6,6 +6,10 @@
     width: 3rem;
 }
 
+.piu-meno {
+    font-size: 1rem;
+}
+
 @media screen and (min-width: 992px) {
     
     .svg-header {
@@ -20,4 +24,21 @@
         height: 3rem;
     }
 
+}
+
+html[data-bs-theme="light"] .btn-dark {
+    background-color: #0d6efd !important;
+    color: white !important; 
+    border: none !important;
+}
+
+html[data-bs-theme="light"] .btn-dark:hover {
+    background-color: #0b5ed7 !important;
+    color: white !important; 
+    border: none !important;
+}
+
+html[data-bs-theme="light"] .text-body-tertiary {
+    
+    color: rgba(0, 0, 0, 0.445) !important; 
 }
